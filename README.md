@@ -11,6 +11,8 @@ This guide will walk you through the steps to run the Odin frontend and backend 
 
 ### 3. Install Dependencies
 - npm install
+- In the root directory create .env file and add: REACT_APP_MAPBOX_TOKEN= 'your_mapbox_token'
+- In the root directory create .env.development file and add: REACT_APP_API_BASE_URL=http://localhost:8000
 
 ### 4. Run the Frontend Application
 - npm start
